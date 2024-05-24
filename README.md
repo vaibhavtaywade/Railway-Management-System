@@ -1,34 +1,25 @@
-# Railway-Management-System
-The Railway Management System website, built using SQL, HTML, CSS, and PHP, is a B.Tech DBMS project. It enables users to book train tickets, view schedules, and check availability. Featuring a user-friendly interface, it ensures efficient database management and real-time updates, enhancing the railway booking experience.
-# Prerequisites
-SQL database
-Local server solution software like XAMPP
+# railway-management-system
+Railway Management System website built as course project in DBMS subject,B.Tech. Used SQL , html ,css and php.
 
-# Installation Steps
-  -Set Up SQL Database
-Sign up and sign in to your SQL database.
-Run the railway.sql script to create the database.
+To install and run on your pc:-
 
-#  Configure Database Connection
-Open the db.php file.
-Enter your SQL username and password in the indicated sections.
+1)Sign up and sign in in your sql database.
 
-# Ensure Active SQL Database Connection
-Use a local server solution like XAMPP, which is open-source and easy to use, or deploy the site on a web server connected to SQL.
+2)Run railway.sql and save databse. 
 
+3)Add your sql password and user name in indicated portion of db.php file.
 
-Deploying on Local Host Using XAMPP
-# Prepare Project Files
+4)Make sure you have active sql database connection. To do so you can use local server solution software like xampp which is open source and easy to use , or deploy 
+site on a web server connected to sql.
 
-Navigate to the folder where XAMPP is installed.
-Inside, locate the htdocs folder.
-Create a new folder named railway inside htdocs. The path should be ~\xampp\htdocs\railway.
-Place all project files in this railway folder.
+For deploying on local host using xampp:-
 
-# Start MySQL Service
-Open the XAMPP control panel.
-Ensure the MySQL service is running.
+a)Navigate to folder where xampp is installed. Inside, there is afolder named htdocs, make a folder named railway there. Path would look something like this-"~\xampp\htdocs\railway\". Place the the project files in this folder.
 
-# Run the Application
-Open index.htm in your web browser.
-Enjoy using the Railway Management System! If you encounter any issues during installation, feel free to ask for help.
+b)Go to xampp control panel and make sure mysql service is in running state.
+
+c)Open index.htm in your browser.
+
+5)Finally run index.htm and enjoy!
+
+Feel free to ask queries if facing any issues in installation. 
